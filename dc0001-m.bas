@@ -1,3 +1,16 @@
+; ************************************************************ 
+; ********************  DC001-M firmware *********************
+; ************************************************************ 
+;    Filename:		dc001-m.bas                                *
+;    Date:			22/05/2018                                   *
+;    File Version:	v0.3.0-alpha.rc                          *
+;    Written by:	Álvaro Torralba                            *
+;    Function:		DC001-M protoboard firmware.               *
+;    Last Revision:	22/05/2018                               *
+;    Target PICAXE:	08M2                                     *
+;    License:		GPL-v2.0                                     *
+; ************************************************************
+
 init: pause 500
 hi2csetup i2cmaster, %11000110, i2cslow, i2cbyte
 
